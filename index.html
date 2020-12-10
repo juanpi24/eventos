@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Pagina web sobre conferencias">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="Contacto">
+  <meta name="author" content="Juan Pablo Millicay">
+  <title>Conferencias</title>
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div class="container-fluid">
+<header class="site-header">
+      <div class="hero">
+            <div class="contenido-header">
+               
+                <nav class="redes-sociales">
+                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
+                     <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a> 
+                     <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> 
+                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a> 
+                </nav>  
+                <div class="informacion-evento">
+                  <div class="clearfix">
+                    <p class="fecha"><i class="fas fa-calendar-alt"></i> 09-12 Dic</p>
+                    <p class="ciudad"><i class="fas fa-map-marker-alt"></i> La Rioja, Argentina</p>
+                  </div>
+                                 
+                <h1 class="nombre-sitio">JPMWebCamp</h1>
+                <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
+              </div><!--Informacion Evento-->            </div>
+      </div><!--hero-->
+
+</header>
+
+<div class="barra">
+  <div class="contenedor clearfix">
+    <div class="logo">
+      <img src="img/logo.svg" alt="logo jpmwebcamp">
+    </div>
+    <div class="menu-movil">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="navegacion-principal clearfix">
+      <a href="#">Conferencia</a>
+      <a href="#">Calendario</a>
+      <a href="#">Invitados</a>
+      <a href="#programa">Programa</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div><!--Contenedor-->
+</div><!--Barra-->
+
+<section class="seccion contenedor">
+  <h2>La mejor conferencia de diseño web en español</h2>
+  <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
+</section><!--Seccion-->
+
+    <div class="contenido-programa">
+      <div class="contenedor">
+        <div id="programa" class="programa-evento">
+          <h2>Programa del Evento</h2>
+          <nav class="menu-programa">
+            <a href="#talleres"><i class="fas fa-code"></i> Talleres</a>
+            <a href="#conferencias"><i class="fas fa-comment"></i> Conferencias</a>
+            <a href="#seminarios"><i class="fas fa-university"></i> Seminarios</a>
+          </nav>
+          <div id="talleres" class="info-curso ocultar clearfix">
+            <div class="detalle-evento">
+              <h3>HTML, CSS3 y JavaScript</h3>
+              <p><i class="fas fa-clock"></i> 16:00 hs</p>
+              <p><i class="fas fa-calendar"></i> 10 de Dic</p>
+              <p><i class="fas fa-user"></i> Juan Pablo Millicay</p>
+            </div>
+            <div class="detalle-evento">
+              <h3>Reponsive Web Designe</h3>
+              <p><i class="fas fa-clock"></i> 20:00 hs</p>
+              <p><i class="fas fa-calendar"></i> 10 de Dic</p>
+              <p><i class="fas fa-user"></i> Juan Pablo Millicay</p>
+            </div>
+            <a href="#" class="button float-right">Ver Todos</a> 
+         </div>
+        </div>
+    </div>
+    </div><!--Contenido programa-->
+
+
+
+<div class="contador parallax">
+  <div class="contenedor">
+    <ul class="resumen-evento clearfix">
+      <li><p class="numero">6</p>Invitados</li>
+      <li><p class="numero">15</p>Talleres</li>
+      <li><p class="numero">3</p>Dias</li>
+      <li><p class="numero">9</p>Conferencias</li>
+    </ul>
+  </div>
+</div>
+
+<section id="contacto">
+  <h2>Formulario de Contacto</h2>
+  <div class="row" >
+            <div class="col-6">
+            <form method="POST" action="contacto.php">
+              <div class="form-group">
+                  <label for="nombre">Nombre y Apellido </label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre y Apellido" name="name" required>
+                  <div class="valid-feedback">Valido.</div>
+                  <div class="invalid-feedback">Por favor rellene este campo.</div>
+              </div>
+              <div class="form-group">
+                  <label for="correo">Correo electrónico</label>
+                  <input type="email" class="form-control" id="correo" placeholder="Ingrese email" name="mail" required>
+                  <div class="valid-feedback">Valido.</div>
+                  <div class="invalid-feedback">Por favor rellene este campo.</div>
+              </div>
+              <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <input type="textarea" class="form-control" id="mensaje" cols="30" rows="5" placeholder="Comparte tu opinión!" name="msj" required>
+                  <div class="valid-feedback">Valido.</div>
+                  <div class="invalid-feedback">Por favor rellene este campo.</div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+          </form>
+      </div>
+      <div class="col-6">
+
+        <div class="informacion-contacto">
+            <p>Ponete en contacto con nosotros:</p>
+            <p><i class="fas fa-phone-square-alt"></i> 3804556688</p>
+            <p><i class="fas fa-envelope"></i> info@miweb.com</p>
+            <p><i class="fas fa-clock"></i> 16 a 20 hs</p>
+          
+         </div>
+  </div>
+</section>
+<footer class="site-footer">
+    <div class="contenedor clearfix">
+        <div class="footer-informacion">
+            <h3>Sobre <span>JPMWebCamp</span></h3>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer.</p>
+        </div>
+        <div class="ultimos-tweets">
+          <h3>Últimos <span>Tweets</span></h3>
+          <ul>
+            <li>Primer Tweets @tweet</li>
+            <li>Segundo Tweets @tweets</li>
+          </ul>
+        </div>
+        <div class="menu-redes">
+          <h3>Redes <span>Sociales</span></h3>
+          <nav class="redes-sociales">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a> 
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> 
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a> 
+       </nav>  
+        </div>
+    </div>
+    <p class="copyright">Todos los Derechos Reservados JPMWebCamp 2020.</p>
+</footer><!--Footer-->
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
